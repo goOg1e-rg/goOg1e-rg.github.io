@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html, body{
+    font-family: raleway !important;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.text-secondary{
+    font-size: 12px;
+}
+
+.card-img-top{
+    transform: scale(0.8);
+}
+
+.card-img-top:hover{
+    transform: scale(0.9);
+    transition-duration: 1.0s;
+}
+
+.card h6{
+    font-weight: bold;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+#carouselExample{
+    max-width: 87%;
+}
+
+@media screen and (max-width:768px){
+    #border{
+        border-bottom:none !important;
+        border-top: none !important;   
+    }
+    
+    #buttonb{
+        margin-left: 45.5% !important;
+    }
+}
+
+@media screen and (max-width:568px){
+
+
+    #buttonb{
+        margin-left: 40% !important;
+    }
+}
+    
+@media screen and (max-width:320px){
+    #buttonb{
+        margin-left: 34% !important;
+    }
+}
